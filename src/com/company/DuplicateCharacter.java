@@ -10,7 +10,6 @@ public class DuplicateCharacter
     public void findCharacter()
     {
         Map<Character, Integer> baseMap = new HashMap<Character, Integer>();
-        DuplicateCharacter m = new DuplicateCharacter();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a word: ");
         String string =scanner.nextLine();
